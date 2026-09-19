@@ -1,0 +1,32 @@
+[
+  {
+    "sample_index": 1,
+    "inputs": "Evaluate the following cooling channel geometry design candidate:\n- Inner wall thickness (tw_inner): 2.4597 mm\n- Nominal throat channel width (a_min_nominal): 2.9905 mm\n- Rib width (b_rib): 2.6913 mm\n- Chamber aspect ratio (AR_chamber): 1.4930\n- Throat aspect ratio (AR_throat): 4.5250\n- Exit aspect ratio (AR_exit): 0.3110\n\nDetermine whether this design satisfies the thermal and power cycle constraints.",
+    "predicted": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.10 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.20 bar)",
+    "ground_truth": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 1041.67 K exceeds 700.0 K limit)\n- Power Constraint: FAIL (Coolant outlet temperature Tc_out = 209.68 K below 210.0 K limit; Delta_P = 0.09 bar)"
+  },
+  {
+    "sample_index": 2,
+    "inputs": "Evaluate the following cooling channel geometry design candidate:\n- Inner wall thickness (tw_inner): 2.1899 mm\n- Nominal throat channel width (a_min_nominal): 1.7400 mm\n- Rib width (b_rib): 2.9634 mm\n- Chamber aspect ratio (AR_chamber): 1.2010\n- Throat aspect ratio (AR_throat): 4.2670\n- Exit aspect ratio (AR_exit): 0.4020\n\nDetermine whether this design satisfies the thermal and power cycle constraints.",
+    "predicted": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 851.20 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 227.00 K >= 210.0 K limit; Delta_P = 0.20 bar)",
+    "ground_truth": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 703.75 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 229.82 K >= 210.0 K limit; Delta_P = 0.73 bar)"
+  },
+  {
+    "sample_index": 3,
+    "inputs": "Evaluate the following cooling channel geometry design candidate:\n- Inner wall thickness (tw_inner): 2.3604 mm\n- Nominal throat channel width (a_min_nominal): 1.4183 mm\n- Rib width (b_rib): 0.8798 mm\n- Chamber aspect ratio (AR_chamber): 0.5180\n- Throat aspect ratio (AR_throat): 7.4210\n- Exit aspect ratio (AR_exit): 0.9030\n\nDetermine whether this design satisfies the thermal and power cycle constraints.",
+    "predicted": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.10 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.20 K >= 210.0 K limit; Delta_P = 0.20 bar)",
+    "ground_truth": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 763.78 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 239.38 K >= 210.0 K limit; Delta_P = 1.53 bar)"
+  },
+  {
+    "sample_index": 4,
+    "inputs": "Evaluate the following cooling channel geometry design candidate:\n- Inner wall thickness (tw_inner): 1.9410 mm\n- Nominal throat channel width (a_min_nominal): 1.8582 mm\n- Rib width (b_rib): 2.0281 mm\n- Chamber aspect ratio (AR_chamber): 1.4520\n- Throat aspect ratio (AR_throat): 2.6250\n- Exit aspect ratio (AR_exit): 0.6120\n\nDetermine whether this design satisfies the thermal and power cycle constraints.",
+    "predicted": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 831.20 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.20 K >= 210.0 K limit; Delta_P = 0.20 bar)",
+    "ground_truth": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 647.29 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 233.44 K >= 210.0 K limit; Delta_P = 0.90 bar)"
+  },
+  {
+    "sample_index": 5,
+    "inputs": "Evaluate the following cooling channel geometry design candidate:\n- Inner wall thickness (tw_inner): 2.1959 mm\n- Nominal throat channel width (a_min_nominal): 1.0002 mm\n- Rib width (b_rib): 2.0902 mm\n- Chamber aspect ratio (AR_chamber): 1.3220\n- Throat aspect ratio (AR_throat): 4.0670\n- Exit aspect ratio (AR_exit): 0.7240\n\nDetermine whether this design satisfies the thermal and power cycle constraints.",
+    "predicted": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.10 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.20 K >= 210.0 K limit; Delta_P = 0.20 bar)",
+    "ground_truth": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 529.99 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 243.39 K >= 210.0 K limit; Delta_P = 4.43 bar)"
+  }
+]

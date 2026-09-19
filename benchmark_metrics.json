@@ -1,0 +1,644 @@
+{
+  "accuracy": 0.5666666666666667,
+  "precision": 0,
+  "recall": 0.0,
+  "f1": 0,
+  "confusion_matrix": {
+    "tp": 0,
+    "fp": 0,
+    "tn": 17,
+    "fn": 13
+  },
+  "details": [
+    {
+      "idx": 1,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 810.0,
+        "tc_out": 221.0,
+        "delta_p": 0.16
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "FAIL",
+        "twg": 1041.67,
+        "tc_out": 209.68,
+        "delta_p": 0.09
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.16 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 1041.67 K exceeds 700.0 K limit)\n- Power Constraint: FAIL (Coolant outlet temperature Tc_out = 209.68 K below 210.0 K limit; Delta_P = 0.09 bar)"
+    },
+    {
+      "idx": 2,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 810.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 844.24,
+        "tc_out": 217.86,
+        "delta_p": 0.32
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 844.24 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 217.86 K >= 210.0 K limit; Delta_P = 0.32 bar)"
+    },
+    {
+      "idx": 3,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 227.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 1003.14,
+        "tc_out": 216.63,
+        "delta_p": 0.09
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 227.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 1003.14 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 216.63 K >= 210.0 K limit; Delta_P = 0.09 bar)"
+    },
+    {
+      "idx": 4,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 922.65,
+        "tc_out": 217.03,
+        "delta_p": 0.15
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 922.65 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 217.03 K >= 210.0 K limit; Delta_P = 0.15 bar)"
+    },
+    {
+      "idx": 5,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 1025.53,
+        "tc_out": 213.89,
+        "delta_p": 0.1
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 1025.53 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 213.89 K >= 210.0 K limit; Delta_P = 0.10 bar)"
+    },
+    {
+      "idx": 6,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 850.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 703.75,
+        "tc_out": 229.82,
+        "delta_p": 0.73
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 850.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 703.75 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 229.82 K >= 210.0 K limit; Delta_P = 0.73 bar)"
+    },
+    {
+      "idx": 7,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 846.0,
+        "tc_out": 221.0,
+        "delta_p": 0.16
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 752.07,
+        "tc_out": 228.05,
+        "delta_p": 0.52
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 846.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.16 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 752.07 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 228.05 K >= 210.0 K limit; Delta_P = 0.52 bar)"
+    },
+    {
+      "idx": 8,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 810.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 945.04,
+        "tc_out": 222.17,
+        "delta_p": 0.16
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 945.04 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 222.17 K >= 210.0 K limit; Delta_P = 0.16 bar)"
+    },
+    {
+      "idx": 9,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 810.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 970.0,
+        "tc_out": 215.05,
+        "delta_p": 0.14
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 970.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 215.05 K >= 210.0 K limit; Delta_P = 0.14 bar)"
+    },
+    {
+      "idx": 10,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 227.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 949.57,
+        "tc_out": 223.03,
+        "delta_p": 0.14
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 227.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 949.57 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 223.03 K >= 210.0 K limit; Delta_P = 0.14 bar)"
+    },
+    {
+      "idx": 11,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 1053.21,
+        "tc_out": 218.93,
+        "delta_p": 0.16
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 1053.21 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 218.93 K >= 210.0 K limit; Delta_P = 0.16 bar)"
+    },
+    {
+      "idx": 12,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 830.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 958.84,
+        "tc_out": 221.92,
+        "delta_p": 0.16
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 830.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 958.84 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.92 K >= 210.0 K limit; Delta_P = 0.16 bar)"
+    },
+    {
+      "idx": 13,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 810.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 763.78,
+        "tc_out": 239.38,
+        "delta_p": 1.53
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 763.78 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 239.38 K >= 210.0 K limit; Delta_P = 1.53 bar)"
+    },
+    {
+      "idx": 14,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 901.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 701.84,
+        "tc_out": 238.62,
+        "delta_p": 0.93
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 901.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 701.84 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 238.62 K >= 210.0 K limit; Delta_P = 0.93 bar)"
+    },
+    {
+      "idx": 15,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 227.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 828.42,
+        "tc_out": 225.7,
+        "delta_p": 0.29
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 227.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 828.42 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 225.70 K >= 210.0 K limit; Delta_P = 0.29 bar)"
+    },
+    {
+      "idx": 16,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 960.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 1062.1,
+        "tc_out": 220.15,
+        "delta_p": 0.13
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 960.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 1062.10 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 220.15 K >= 210.0 K limit; Delta_P = 0.13 bar)"
+    },
+    {
+      "idx": 17,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 860.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 1071.65,
+        "tc_out": 211.52,
+        "delta_p": 0.09
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 860.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 1071.65 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 211.52 K >= 210.0 K limit; Delta_P = 0.09 bar)"
+    },
+    {
+      "idx": 18,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 830.1,
+        "tc_out": 221.0,
+        "delta_p": 0.12
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 647.29,
+        "tc_out": 233.44,
+        "delta_p": 0.9
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 830.10 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.12 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 647.29 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 233.44 K >= 210.0 K limit; Delta_P = 0.90 bar)"
+    },
+    {
+      "idx": 19,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 830.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 572.86,
+        "tc_out": 242.75,
+        "delta_p": 1.69
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 830.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 572.86 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 242.75 K >= 210.0 K limit; Delta_P = 1.69 bar)"
+    },
+    {
+      "idx": 20,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 834.2,
+        "tc_out": 221.0,
+        "delta_p": 0.16
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 575.59,
+        "tc_out": 245.83,
+        "delta_p": 1.78
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 834.20 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.16 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 575.59 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 245.83 K >= 210.0 K limit; Delta_P = 1.78 bar)"
+    },
+    {
+      "idx": 21,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 850.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 599.08,
+        "tc_out": 239.26,
+        "delta_p": 3.74
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 850.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 599.08 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 239.26 K >= 210.0 K limit; Delta_P = 3.74 bar)"
+    },
+    {
+      "idx": 22,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 901.0,
+        "tc_out": 227.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 531.73,
+        "tc_out": 242.09,
+        "delta_p": 3.7
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 901.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 227.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 531.73 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 242.09 K >= 210.0 K limit; Delta_P = 3.70 bar)"
+    },
+    {
+      "idx": 23,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 961.2,
+        "tc_out": 227.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 677.74,
+        "tc_out": 229.29,
+        "delta_p": 0.56
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 961.20 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 227.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 677.74 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 229.29 K >= 210.0 K limit; Delta_P = 0.56 bar)"
+    },
+    {
+      "idx": 24,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 560.41,
+        "tc_out": 249.5,
+        "delta_p": 3.74
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 560.41 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 249.50 K >= 210.0 K limit; Delta_P = 3.74 bar)"
+    },
+    {
+      "idx": 25,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 841.0,
+        "tc_out": 221.0,
+        "delta_p": 0.2
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 561.2,
+        "tc_out": 247.27,
+        "delta_p": 4.34
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 841.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.20 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 561.20 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 247.27 K >= 210.0 K limit; Delta_P = 4.34 bar)"
+    },
+    {
+      "idx": 26,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 529.99,
+        "tc_out": 243.39,
+        "delta_p": 4.43
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 529.99 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 243.39 K >= 210.0 K limit; Delta_P = 4.43 bar)"
+    },
+    {
+      "idx": 27,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 810.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 547.96,
+        "tc_out": 247.24,
+        "delta_p": 5.98
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 547.96 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 247.24 K >= 210.0 K limit; Delta_P = 5.98 bar)"
+    },
+    {
+      "idx": 28,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 810.1,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 665.7,
+        "tc_out": 233.72,
+        "delta_p": 0.97
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.10 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 665.70 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 233.72 K >= 210.0 K limit; Delta_P = 0.97 bar)"
+    },
+    {
+      "idx": 29,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 800.0,
+        "tc_out": 220.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 583.98,
+        "tc_out": 243.45,
+        "delta_p": 2.58
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 800.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 220.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 583.98 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 243.45 K >= 210.0 K limit; Delta_P = 2.58 bar)"
+    },
+    {
+      "idx": 30,
+      "pred": {
+        "verdict": "FAIL",
+        "material": "FAIL",
+        "power": "PASS",
+        "twg": 810.0,
+        "tc_out": 221.0,
+        "delta_p": 0.14
+      },
+      "gt": {
+        "verdict": "PASS",
+        "material": "PASS",
+        "power": "PASS",
+        "twg": 505.34,
+        "tc_out": 245.33,
+        "delta_p": 8.34
+      },
+      "pred_raw": "VERDICT: FAIL\n- Material Constraint: FAIL (Max hot-gas wall temperature Twg = 810.00 K exceeds 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 221.00 K >= 210.0 K limit; Delta_P = 0.14 bar)",
+      "gt_raw": "VERDICT: PASS\n- Material Constraint: PASS (Max hot-gas wall temperature Twg = 505.34 K <= 700.0 K limit)\n- Power Constraint: PASS (Coolant outlet temperature Tc_out = 245.33 K >= 210.0 K limit; Delta_P = 8.34 bar)"
+    }
+  ]
+}

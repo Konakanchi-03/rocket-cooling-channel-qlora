@@ -1,0 +1,20 @@
+# Python virtual environments
+venv/
+venv*/
+ENV/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoint directories (keep only final_qlora_adapter)
+qlora_checkpoints/
+tmp_test/
+
+# System and logs
+*.log
+.DS_Store
+.idea/
+.vscode/
